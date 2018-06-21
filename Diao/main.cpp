@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+class student{
+protected:
+    int x,y,z;
+    string name;
+student(int x_,int y_,int z_,string name_){
+    x=x_;y=y_;z=z_;name=name_;}
+};
+int main()
+{
+    
     return 0;
 }
